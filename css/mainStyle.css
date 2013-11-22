@@ -1,0 +1,87 @@
+/* 
+    Document   : mainStyle
+    Created on : Oct 8, 2013, 2:50:29 PM
+    Author     : Ramin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #DDDDDD;
+    margin: 0px;
+}
+            
+#container {
+    width: 900px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: #00A480;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+}
+
+#content {
+    background-color: #EEFFE8;
+    padding: 10px;
+    margin: 0px 10px 0px 10px;
+    color: black;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+            
+#footer {
+    text-align:center;
+}
+
+#nav-bar {
+    list-style: none;
+    width: 680px;
+    margin: auto;
+    padding: 0px;
+}
+
+#nav-bar > li {
+    display: inline-block;
+    width: 162px;
+    height: 40px;
+    margin: 0px 4px 0px 0px;
+
+}
+
+#nav-bar > li > a {
+    color: white;
+    background-color: #6E84D6;
+    text-decoration: none;
+    text-align: center;
+    line-height:40px;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+    font-size: 25px;
+    display: inherit;
+    height: inherit;
+    width: inherit;
+    margin: 0px;
+    padding: 0px;
+    border-style: outset;
+    border-color: #268E00;
+    border-width: 4px;
+}
+
+#nav-bar > li > a:hover {
+    background-color: #E46415;
+}
+
+#nav-bar > li > a:active {
+    border-style: inset;
+    background-color: #D71432;
+}
+
+
